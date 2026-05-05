@@ -10,7 +10,7 @@ Audiom Maps recreates the Google Maps end-user experience — search, place deta
 
 ## What this is (and isn't)
 
-Audiom Maps is a **new product in a new repository**, not a feature of [`Audiom-Front-End`](https://github.com/Coughlan-Lab/Audiom-Front-End). It embeds Audiom via the documented iframe + `postMessage` API and reuses a small set of published `@coughlan-lab/*` libraries. It does **not** copy Audiom source, components, or stores.
+Audiom Maps is a **new product in a new repository**, not a feature of [`Audiom-Front-End`](https://github.com/Coughlan-Lab/Audiom-Front-End). It embeds Audiom via the documented iframe + `postMessage` API ([`documentation/embedding.md`](https://github.com/Coughlan-Lab/Audiom-Front-End/blob/master/documentation/embedding.md), [`documentation/map-parameters.md`](https://github.com/Coughlan-Lab/Audiom-Front-End/blob/master/documentation/map-parameters.md)) and reuses a small set of published `@coughlan-lab/*` libraries. It does **not** copy Audiom source, components, or stores.
 
 ### Goals
 
@@ -127,8 +127,6 @@ Phase issues will be created and tracked from the umbrella spec ([#1](../../issu
 ```
 .
 ├── src/                  # Web app (TypeScript, MobX state)
-├── documentation/
-│   └── embedding.md      # Audiom Embed iframe + postMessage API contract
 ├── docs/
 │   └── checklists/
 │       └── ui.md         # "No junk on the screen" UI checklist
@@ -140,6 +138,12 @@ Phase issues will be created and tracked from the umbrella spec ([#1](../../issu
 ## License
 
 TBD.
+
+## References
+
+- [`Coughlan-Lab/Audiom-Front-End`](https://github.com/Coughlan-Lab/Audiom-Front-End) — the Audiom platform this product embeds.
+- [Audiom Embed API — `documentation/embedding.md`](https://github.com/Coughlan-Lab/Audiom-Front-End/blob/master/documentation/embedding.md)
+- [Audiom map parameters — `documentation/map-parameters.md`](https://github.com/Coughlan-Lab/Audiom-Front-End/blob/master/documentation/map-parameters.md)
 
 ## Acknowledgements
 
